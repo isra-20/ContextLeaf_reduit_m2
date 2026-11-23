@@ -23,6 +23,9 @@ L’article original propose **LeafContextReasonNet**, une architecture à fusio
 | **Fusion** | Combiner les deux modalités | Concaténation pondérée : \( [g \cdot v,\; (1-g) \cdot c] \) |
 | **Classifieur** | Prédire la maladie | Couche linéaire (544 → `num_classes`) |
 
+**Porte (gate)** :
+C'est le cœur de la gated fusion. Elle prend la concaténation des deux embeddings ([v, c]) et produit un scalaire g via une sigmoïde. g pondère l'image, (1-g) pondère le contexte. L'intuition est que le réseau apprend à faire confiance à la modalité la plus informative pour chaque échantillon, comme dans la reliability-aware gated fusion de ContextLeafXAI.
+
 **Différences avec l’article original** :
 
 - L’article utilise EfficientNet‑B3 + ViT‑B/16 pour l’image ; nous utilisons un ResNet‑18 plus léger.
