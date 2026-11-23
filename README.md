@@ -98,13 +98,9 @@ Le modèle a été entraîné sur les 8 classes de PlantDoc (avec un `noise_leve
 
 ![Matrice de confusion](docs/confusion_matrix.png)
 
-##📝 Réferences
-@article{zakeeya2026contextleafxai,
-  title   = {Context aware multimodal plant disease diagnosis using agro ecological metadata and explainable inference},
-  author  = {Zakeeya, Nagur and Sugali, Swarna Latha},
-  journal = {Discover Computing},
-  volume  = {29},
-  number  = {734},
-  year    = {2026},
-  doi     = {10.1007/s10791-026-10536-9}
-}
+## 📝 Réferences
+
+**Zakeeya, N., & Sugali, S. L. (2026).**  
+*Context aware multimodal plant disease diagnosis using agro ecological metadata and explainable inference.*  
+**Discover Computing**, 29(734).  
+DOI : [10.1007/s10791-026-10536-9](https://doi.org/10.1007/s10791-026-10536-9)
