@@ -1,0 +1,18 @@
+# Dossiers de données (trop lourds)
+raw_data/
+dataset/
+checkpoints/
+
+# Fichiers générés
+dataset_metadata.csv
+dataset_metadata.json
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Système
+.DS_Store
